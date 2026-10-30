@@ -12,8 +12,8 @@ function Hero() {
           Hello!
         </button>
 
-        <h1 className="whitespace-nowrap text-2xl font-semibold leading-tight text-[#454545] sm:text-4xl md:text-[42px]">
-          I'm <span className="text-[#FD853A]">Ishaq,</span>
+        <h1 className="whitespace-nowrap text-4xl font-semibold leading-tight text-[#454545] sm:text-4xl md:text-5xl">
+          I'm <span className="text-[#FD853A]">Sulaiman,</span>
           <br />
           UI/UX Designer
         </h1>
@@ -23,7 +23,7 @@ function Hero() {
       <div className="absolute left-8 top-40 z-20 hidden w-70 sm:block">
         <FaQuoteLeft size={18} />
 
-        <p className="mt-3 text-lg leading-4 font-medium text-black">
+        <p className="mt-3 text-lg leading-6 font-medium text-black">
           Professional, responsive, and
           <br />
           incredibly talented — great

@@ -1,6 +1,7 @@
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
 import Services from "../components/Serve/Services";
+import WhatIdo from "../components/WhatIdo/WhatIdo";
 import "../styles/style.css";
 
 function Home() {
@@ -10,11 +11,17 @@ function Home() {
         <section>
           <Navbar />
         </section>
+
         <section className="mt-2">
           <Hero />
         </section>
+
         <section>
           <Services />
+        </section>
+
+        <section>
+          <WhatIdo />
         </section>
       </div>
     </>

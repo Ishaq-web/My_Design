@@ -66,7 +66,7 @@ function Navbar() {
                     <li key={pageIndex}>
                       <NavLink
                         to={`/${page.toLowerCase().replaceAll(" ", "-")}`}
-                        className="block rounded-lg px-3 py-2 text-sm text-gray-800 transition-colors duration-200 hover:bg-[#FD853A] hover:text-white sm:px-4"
+                        className="block rounded-lg px-3 py-3 text-sm text-gray-800 transition-colors duration-200 hover:bg-[#FD853A] hover:text-white sm:px-5"
                       >
                         {page}
                       </NavLink>
@@ -81,7 +81,7 @@ function Navbar() {
         <li className="shrink-0">
           <NavLink
             to="/contact"
-            className="text-xs text-[#FD853A] underline sm:text-sm md:text-base"
+            className="text-sm text-[#FD853A] underline sm:text-sm md:text-lg pr-4 mb-4"
           >
             Hire me
           </NavLink>
